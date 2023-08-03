@@ -5,3 +5,14 @@ lib_summary <- function() {
   names(pkg_df) <- c("library", "n_packages")
   pkg_df
 }
+
+
+#' @return a data frame containing the count of packages in each libraries.
+#' @export
+#' @examples
+#' /dontrun{
+#' lib_summary()
+#' }
+
+
+
