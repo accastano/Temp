@@ -22,5 +22,6 @@ lib_summary <- function(sizes = FALSE) {
     )
   }
   pkg_df
+
 }
 
